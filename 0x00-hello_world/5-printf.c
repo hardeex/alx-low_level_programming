@@ -1,6 +1,6 @@
 #include <stdio.h>
-/*
- * main - A program that prints the given message
+/**
+ * main- A program that prints the given message
  *
  * Return: 0 if successful
  */
