@@ -14,6 +14,8 @@ int main(void)
 	for (digit = 0; digit < 10; digit++)
 	{
 		putchar((digit % 10) + '0');
+		if (digit == 9)
+			continue;
 		putchar(',');
 		putchar(' ');
 	}
