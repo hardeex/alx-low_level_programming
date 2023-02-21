@@ -15,9 +15,11 @@ void print_alphabet(void)
 	 while (count < 10 )
 	 {
 		 for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+		 {
 			 putchar(alphabet);
 		 count++;
 		 putchar('\n');
+		 }
 	 }
 	 return (0);
 }
