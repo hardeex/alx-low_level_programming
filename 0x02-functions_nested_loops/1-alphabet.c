@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main- A program that prints alphabet in lowercase 
+ * main- A program that prints alphabet in lowercase
  * using _putchar and prototype header file
  *
  * Return: void
@@ -10,10 +10,13 @@
 void print_alphabet(void)
 {
 	char letter;
+	int count = 0;
 
-	for(letter = 'a'; letter <= 'z'; letter++)
-		_putchar(letter);
-	_putchar('\n');
-
-	
+	while (count < 10)
+	{
+		for (letter = 'a'; letter <= 'z'; letter++)
+			_putchar(letter);
+		count++;
+		_putchar('\n');
+	}
 }
