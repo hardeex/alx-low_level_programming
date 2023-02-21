@@ -3,7 +3,7 @@
 /**
  * main- A program that prints _putchar
  *
- * Return: 0 if succesful
+ * Return: 0 if successful
  *
  * Author: Adewale
  */
