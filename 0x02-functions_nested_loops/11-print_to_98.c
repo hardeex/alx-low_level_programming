@@ -1,4 +1,6 @@
+#include <stdio.h>
 #include "main.h"
+
 /**
  * print_to_98- A program that prints natural numbers
  * @n: The argument of the function
