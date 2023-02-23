@@ -2,7 +2,7 @@
 
 /**
  * print_line- A function that drwas a straiight line
- * @c: The argument
+ * @n: The argument
  *
  * Return: 0
  */
@@ -15,7 +15,6 @@ void print_line(int n)
 		for (line = 0; line < n; line++)
 			_putchar('_');
 	}
-	else
-		_putchar('\n');
+	_putchar('\n');
 }
 
