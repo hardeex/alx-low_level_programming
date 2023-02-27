@@ -19,7 +19,7 @@ void rev_string(char *s)
 	while ( revlen < strlen--)
 	{
 		txt = s[revlen];
-		s[revlen++) = s[strlen];
+		s[revlen++] = s[strlen];
 		s[strlen] = txt;
 	}
 }
