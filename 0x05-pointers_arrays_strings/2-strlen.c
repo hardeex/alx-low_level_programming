@@ -4,7 +4,7 @@
  * _strlen- A function that returns the length of a string
  * @s: The pointer variable
  *
- * Return: 0 if successful
+ * Return: strlen if successful
  * Student: Adewale
  */
 int _strlen(char *s)
@@ -13,5 +13,5 @@ int _strlen(char *s)
 
 	while (s[len] != '0')
 		len++;
-	printf(len);
+	return (len);
 }
