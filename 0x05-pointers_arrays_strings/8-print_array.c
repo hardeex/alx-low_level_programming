@@ -12,7 +12,9 @@
  */
 void print_array(int *a, int n)
 {
-	for (int num = 0; num < n; num++)
+	int num = 0;
+
+	for (; num < n; num++)
 	{
 		printf("%d", a[num]);
 		if (num < n - 1)
