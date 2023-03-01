@@ -1,1 +1,1 @@
-The learning process on C programming language begins
+The pointer task contnues
