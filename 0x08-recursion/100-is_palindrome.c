@@ -29,7 +29,7 @@ int _strlen_recursion(char *s)
  * Return: 1 if is string is a palindrome or 0 in otherwise
  */
 int is_palindrome(char *s)
-{ 
+{
 	int len;
 
 	len = _strlen_recursion(s);
@@ -48,8 +48,8 @@ int helper_palindrome(char *s, int len)
 {
 	if (len <= 1)
 		return (1);
-	else if (*s == *(s + len -1))
+	else if (*s == *(s + len - 1))
 		return (helper_palindrome(s + 1, len - 2));
 	else
 		return (0);
-}			
+}
