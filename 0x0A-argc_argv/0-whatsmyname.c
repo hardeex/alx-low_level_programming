@@ -8,7 +8,7 @@
  * Return: 0 if successful
  * Student: Adewale
  */
-int main(argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	if (argc > 0)
 	{
