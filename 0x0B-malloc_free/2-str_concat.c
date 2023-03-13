@@ -29,7 +29,7 @@ char *str_concat(char *s1, char *s2)
 	if (concate == NULL)
 		return (NULL);
 
-	for (index = 0; s[index]; index++)
+	for (index = 0; s1[index]; index++)
 		concate[size_concate++] = s1[index];
 	for (index = 0; s2[index]; index++)
 		concate[size_concate++] = s2[index];
