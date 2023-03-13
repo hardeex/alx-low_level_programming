@@ -3,8 +3,8 @@
 
 /**
  * _strdup- A fuction that returns a pointer to a newly allocated
- * 	spaces in memory, ehich contains a copy of the
- * 	 string given as a parameter.
+ *	spaces in memory, ehich contains a copy of the
+ *	 string given as a parameter.
  * @str: The parameter
  * Return: NULL if the string is NULL or insufficient memory
  */
