@@ -1,1 +1,0 @@
-The pointer task contnues
