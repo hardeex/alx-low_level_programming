@@ -19,7 +19,7 @@ int **alloc_grid(int width, int height)
 		return (NULL);
 	for (arrayHeight = 0; arrayHeight < height; arrayHeight++)
 	{
-		twoDimensionArray[arrayHeight] = malloc(sizeof(int) * width);
+		twoDimensionArray[arrayHeight] = (int *)malloc(sizeof(int) * width);
 		if (twoDimensionArray[arrayHeight] == NULL)
 		{
 			for (; arrayHeight >= 0; arrayHeight--)
