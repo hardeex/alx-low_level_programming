@@ -13,7 +13,7 @@
 int **alloc_grid(int width, int height)
 {
 	char **twoDimensionArray;
-	int size, arrayHeight, arrayWidth;
+	int arrayHeight, arrayWidth;
 
 	if (height <= 0 || width <= 0)
 		return (NULL);
@@ -28,10 +28,10 @@ int **alloc_grid(int width, int height)
 			return (NULL);
 		}
 	}
-	for (arrayHeight = 0; arrayHeight < height; arayHeight++)
+	for (arrayHeight = 0; arrayHeight < height; arrayHeight++)
 	{
 		for (arrayWidth = 0; arrayWidth < width; arrayWidth++)
 			twoDimensionArray[arrayWidth] = 0;
 	}
-	return (twoDimwnsionArray);
+	return (twoDimensionArray);
 }
